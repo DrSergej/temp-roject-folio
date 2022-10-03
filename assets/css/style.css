@@ -340,7 +340,7 @@ header {
   background-color: #deb873;
   color: #7d2222;
   padding-bottom: 25rem;
-  width: 144rem;
+  max-width: 144rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -386,7 +386,6 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25rem;
-  max-width: 144rem;
   background-image: url(../img/bg-marconatto-1.jpg);
   height: 42rem;
   background-position: right;
@@ -465,7 +464,7 @@ header {
 footer {
   background-color: #d2d2d2;
   color: #388883;
-  width: 144rem;
+  max-width: 144rem;
   margin-left: auto;
   margin-right: auto;
 }
