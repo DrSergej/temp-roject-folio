@@ -321,14 +321,23 @@ header {
 .vector {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10rem;
 }
-.vector1 {
-  display: flex;
-  justify-content: flex-end;
+
+.vector-pic {
+  background-image: url(../img/letswork.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10rem;
   width: 12rem;
   height: 12rem;
 }
+/* .vector-pic {
+  stroke: 2px solid #7d2222;
+  color: #7d2222;
+  width: 12rem;
+  height: 12rem;
+} */
 
 /* ======== Section WORKS stylen ======== */
 
@@ -509,12 +518,7 @@ footer {
 footer ul {
   list-style: none;
   font-family: opensans-regular;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.4rem;
-  line-height: 200%;
   text-align: right;
-  letter-spacing: -0.02rem;
   margin-right: 9.5rem;
   padding-bottom: 10rem;
 }
@@ -522,6 +526,11 @@ footer ul {
 footer ul a {
   text-decoration: none;
   color: #388883;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
 }
 
 footer ul a:hover {
