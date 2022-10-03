@@ -116,6 +116,9 @@ header {
   border-bottom: 0.2rem solid #042a5a;
   text-align: center;
   font-size: 16rem;
+  width: 115.2rem;
+  margin-left: auto;
+  margin-right: auto;
   /* width: 115.2rem; */
 }
 
@@ -149,10 +152,21 @@ header {
 
 /* Section RELEASE stylen */
 
+.background-plus-sec-release {
+  background-color: #f4c4c4;
+}
+
 .section-release {
   background-color: #f4c4c4;
   padding-bottom: 10rem;
+  max-width: 144rem;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* .section-release-1440p {
+  width: 144rem;
+} */
 
 .section-release-p01 {
   font-family: opensans-regular;
@@ -319,10 +333,17 @@ header {
 
 /* Section WORKS stylen */
 
+.background-plus-sec-works {
+  background-color: #deb873;
+}
+
 .section-works {
   background-color: #deb873;
   color: #7d2222;
   padding-bottom: 25rem;
+  width: 144rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-works-p01 {
@@ -357,11 +378,18 @@ header {
   width: 53.5rem;
 }
 
-.section-works-group1 {
+.group1-outer-container {
   margin-left: 9.5rem;
-  margin-bottom: 25rem;
   margin-right: 12rem;
-  max-width: 204.8rem;
+}
+
+.section-works-group1 {
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 9.5rem; */
+  margin-bottom: 25rem;
+  /* margin-right: 12rem; */
+  max-width: 144rem;
   background-image: url(../img/bg-marconatto-1.jpg);
   height: 42rem;
   background-position: right;
@@ -444,6 +472,13 @@ header {
 footer {
   background-color: #d2d2d2;
   color: #388883;
+  width: 144rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-plus-sec-footer {
+  background-color: #d2d2d2;
 }
 
 .footer-p01 {
