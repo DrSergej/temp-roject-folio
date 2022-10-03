@@ -1,0 +1,503 @@
+@font-face {
+  font-family: athene;
+  src: url(../fonts/Athene.otf);
+}
+
+@font-face {
+  font-family: opensans-regular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* headline stylen  nav soll fixed mitscrollen*/
+
+body {
+  /* margin-top: 8rem; */
+  background-color: #282b29;
+}
+
+.headline {
+  position: fixed;
+  width: 100%;
+}
+.headline div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #042a5a;
+  background-color: rgba(128, 128, 128, 0);
+  font-size: 1.8rem;
+  font-family: opensans-regular;
+  height: 3.9rem;
+  line-height: 2.5rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 0.1rem solid#042a5a;
+  margin-bottom: 4.4rem;
+}
+
+.nav-sc20 {
+  font-family: opensans-regular;
+  letter-spacing: -0.08rem;
+  margin-left: 16.5rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  color: #042a5a;
+}
+
+.nav-tempfolio {
+  font-family: opensans-regular;
+  letter-spacing: -0.08rem;
+  margin-right: 16.5rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  color: #042a5a;
+}
+
+header {
+  font-family: athene;
+  font-weight: 400;
+  background-color: #efe8d7;
+}
+
+.h1 {
+  font-family: athene;
+  color: #042a5a;
+  margin-bottom: 5rem;
+  padding-top: 9.8rem;
+}
+
+.header-div-temporary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16rem;
+  text-align: center;
+}
+
+.header-div-temporary hr {
+  border: 0.1rem solid #042a5a;
+  width: 115.2rem;
+}
+.header-div-folio hr {
+  border: 0.1rem solid #042a5a;
+  width: 19.6rem;
+  margin: 0 4.5rem;
+}
+
+.h1 p {
+  text-align: center;
+  max-width: 115.2rem;
+}
+
+.header-div-folio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.2rem solid #042a5a;
+  text-align: center;
+  font-size: 16rem;
+  /* width: 115.2rem; */
+}
+
+.header-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-blue {
+  /* margin-left: auto;
+  margin-right: auto; */
+  height: 60.2rem;
+  width: 40.1rem;
+  margin-bottom: 3.5rem;
+}
+
+.designer-and-developer {
+  /* display: inline-block; */
+  font-family: athene;
+  font-size: 2.4rem;
+  /* text-align: center; */
+  color: #042a5a;
+  padding-bottom: 15.122rem;
+  padding-right: 11rem;
+  /* margin-left: 41.6%; */
+}
+
+/* Section RELEASE stylen */
+
+.section-release {
+  background-color: #f4c4c4;
+  padding-bottom: 10rem;
+}
+
+.section-release-p01 {
+  font-family: opensans-regular;
+  color: #282b29;
+  padding-top: 10rem;
+  margin-left: 11.5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.08rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+.release-p02 {
+  font-family: athene;
+  font-size: 16rem;
+  color: #282b29;
+}
+
+.parent-release-text-block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.release-text-block {
+  font-family: opensans-regular;
+  font-size: 1.8rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
+  color: #282b29;
+  margin-right: 9.5rem;
+  margin-bottom: 10rem;
+  width: 53.5rem;
+}
+
+/* Release LISTE stylen */
+
+.section-release-liste {
+  font-family: opernsans-regular;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-release-liste-all {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-right: 10rem;
+  width: 59.8rem;
+}
+
+.release-liste-p01 {
+  text-align: right;
+  border-bottom: 0.1rem solid #282b29;
+  margin-bottom: 3rem;
+}
+
+.release-liste-teil1 {
+  height: 9.7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 0.1rem solid #282b29;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.release-liste-teil1 p:nth-of-type(3) {
+  height: 7.2rem;
+  width: 9.7rem;
+  text-align: right;
+  font-size: 1.4rem;
+  letter-spacing: -0.06rem;
+  line-height: 1.8rem;
+}
+.release-liste-teil1 p:nth-of-type(2) {
+  padding-right: 41rem;
+  font-size: 2.1rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
+}
+.release-liste-teil1 p:nth-of-type(1) {
+  padding-right: 3rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.08rem;
+  line-height: 1.9rem;
+}
+
+.release-liste-teil2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 0.1rem solid #282b29;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.release-liste-teil2 p:nth-of-type(3) {
+  height: 7.2rem;
+  width: 9.7rem;
+  text-align: right;
+  font-size: 1.4rem;
+  letter-spacing: -0.06rem;
+}
+.release-liste-teil2 p:nth-of-type(2) {
+  padding-right: 34rem;
+  font-size: 2.1rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
+}
+.release-liste-teil2 p:nth-of-type(1) {
+  padding-right: 3rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.08rem;
+  line-height: 1.9rem;
+}
+
+.release-liste-teil3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 0.1rem solid #282b29;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+
+.release-liste-teil3 p:nth-of-type(3) {
+  height: 5.4rem;
+  width: 9.7rem;
+  text-align: right;
+  font-size: 1.4rem;
+  letter-spacing: -0.06rem;
+}
+.release-liste-teil3 p:nth-of-type(2) {
+  padding-right: 37rem;
+  font-size: 2.1rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
+}
+.release-liste-teil3 p:nth-of-type(1) {
+  padding-right: 3rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.08rem;
+  line-height: 1.9rem;
+}
+
+/* Release Vector stylen */
+
+.vector {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10rem;
+}
+.vector1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 12rem;
+  height: 12rem;
+}
+
+/* Section WORKS stylen */
+
+.section-works {
+  background-color: #deb873;
+  color: #7d2222;
+  padding-bottom: 25rem;
+}
+
+.section-works-p01 {
+  font-family: opensans-regular;
+  color: #7d2222;
+  padding-top: 10rem;
+  margin-right: 11.5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: -0.08rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+.works-p02 {
+  font-family: athene;
+  font-size: 16rem;
+  color: #7d2222;
+  text-align: right;
+}
+
+.works-text-block {
+  font-family: opensans-regular;
+  font-size: 1.8rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
+  color: #7d2222;
+  margin-left: 9.5rem;
+  margin-bottom: 10rem;
+  width: 53.5rem;
+}
+
+.section-works-group1 {
+  margin-left: 9.5rem;
+  margin-bottom: 25rem;
+  margin-right: 12rem;
+  max-width: 204.8rem;
+  background-image: url(../img/bg-marconatto-1.jpg);
+  height: 42rem;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section-works-group1 p {
+  font-family: "Athene";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.section-works-group2 {
+  margin-right: 9.5rem;
+  margin-bottom: 25rem;
+  margin-left: 12rem;
+  max-width: 204.8rem;
+  background-image: url(../img/kathe_cover-1.jpg);
+  height: 42rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section-works-group2 p {
+  font-family: "Athene";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: right;
+}
+.section-works-group3 {
+  margin-left: 9.5rem;
+  margin-bottom: 25rem;
+  margin-right: 12rem;
+  max-width: 204.8rem;
+  background-image: url(../img/bg-nicole-1.jpg);
+  height: 42rem;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section-works-group3 p {
+  font-family: "Athene";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.section-works-group4 {
+  margin-right: 9.5rem;
+  /* margin-bottom: 25rem; */
+  margin-left: 11.5rem;
+  max-width: 204.8rem;
+  background-image: url(../img/boa_cover-1.jpg);
+  height: 42rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section-works-group4 p {
+  font-family: "Athene";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+/* Footer stylen */
+
+footer {
+  background-color: #d2d2d2;
+  color: #388883;
+}
+
+.footer-p01 {
+  font-family: opensans-regular;
+  color: #388883;
+  padding-top: 10rem;
+  margin-left: 11.5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.08rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+
+.footer-p02 {
+  font-family: athene;
+  font-size: 16rem;
+  color: #388883;
+}
+
+.footer-text-block {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 200%;
+  letter-spacing: -0.02rem;
+  text-transform: uppercase;
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  /* margin-top: 58.7rem; */
+}
+
+footer ul {
+  list-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 200%;
+  text-align: right;
+  letter-spacing: -0.02rem;
+  margin-right: 9.5rem;
+  padding-bottom: 10rem;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #388883;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
