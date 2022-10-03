@@ -22,7 +22,6 @@ html {
 /* headline stylen  nav soll fixed mitscrollen*/
 
 body {
-  /* margin-top: 8rem; */
   background-color: #282b29;
 }
 
@@ -119,7 +118,6 @@ header {
   width: 115.2rem;
   margin-left: auto;
   margin-right: auto;
-  /* width: 115.2rem; */
 }
 
 .header-pic {
@@ -132,25 +130,20 @@ header {
 }
 
 .image-blue {
-  /* margin-left: auto;
-  margin-right: auto; */
   height: 60.2rem;
   width: 40.1rem;
   margin-bottom: 3.5rem;
 }
 
 .designer-and-developer {
-  /* display: inline-block; */
   font-family: athene;
   font-size: 2.4rem;
-  /* text-align: center; */
   color: #042a5a;
   padding-bottom: 15.122rem;
   padding-right: 11rem;
-  /* margin-left: 41.6%; */
 }
 
-/* Section RELEASE stylen */
+/* ======== Section RELEASE stylen ========*/
 
 .background-plus-sec-release {
   background-color: #f4c4c4;
@@ -163,10 +156,6 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .section-release-1440p {
-  width: 144rem;
-} */
 
 .section-release-p01 {
   font-family: opensans-regular;
@@ -201,9 +190,10 @@ header {
   margin-right: 9.5rem;
   margin-bottom: 10rem;
   width: 53.5rem;
+  text-transform: uppercase;
 }
 
-/* Release LISTE stylen */
+/* == Release LISTE stylen == */
 
 .section-release-liste {
   font-family: opernsans-regular;
@@ -226,6 +216,11 @@ header {
   text-align: right;
   border-bottom: 0.1rem solid #282b29;
   margin-bottom: 3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .release-liste-teil1 {
@@ -243,11 +238,12 @@ header {
   width: 9.7rem;
   text-align: right;
   font-size: 1.4rem;
+  font-weight: 400;
   letter-spacing: -0.06rem;
   line-height: 1.8rem;
 }
 .release-liste-teil1 p:nth-of-type(2) {
-  padding-right: 41rem;
+  padding-right: 40rem;
   font-size: 2.1rem;
   line-height: 200%;
   letter-spacing: -0.02rem;
@@ -305,7 +301,7 @@ header {
   letter-spacing: -0.06rem;
 }
 .release-liste-teil3 p:nth-of-type(2) {
-  padding-right: 37rem;
+  padding-right: 35rem;
   font-size: 2.1rem;
   line-height: 200%;
   letter-spacing: -0.02rem;
@@ -331,7 +327,7 @@ header {
   height: 12rem;
 }
 
-/* Section WORKS stylen */
+/* ======== Section WORKS stylen ======== */
 
 .background-plus-sec-works {
   background-color: #deb873;
@@ -386,9 +382,7 @@ header {
 .section-works-group1 {
   margin-left: auto;
   margin-right: auto;
-  /* margin-left: 9.5rem; */
   margin-bottom: 25rem;
-  /* margin-right: 12rem; */
   max-width: 144rem;
   background-image: url(../img/bg-marconatto-1.jpg);
   height: 42rem;
@@ -448,7 +442,6 @@ header {
 
 .section-works-group4 {
   margin-right: 9.5rem;
-  /* margin-bottom: 25rem; */
   margin-left: 11.5rem;
   max-width: 204.8rem;
   background-image: url(../img/boa_cover-1.jpg);
@@ -467,7 +460,7 @@ header {
   text-align: right;
 }
 
-/* Footer stylen */
+/* ======== Footer stylen ======== */
 
 footer {
   background-color: #d2d2d2;
@@ -512,7 +505,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10rem;
-  /* margin-top: 58.7rem; */
 }
 
 footer ul {
